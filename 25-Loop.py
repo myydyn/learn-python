@@ -35,3 +35,4 @@ while k_number < 10:
      print(k_number, 'is odd number')
      k_number += 1
 
+open('25-loop-practice.py', 'w')
