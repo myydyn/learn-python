@@ -23,6 +23,12 @@
 #IT('quit', language='her job')
 
 
-print(sorted([3, 4, 1], reverse=True))
+#print(sorted([3, 4, 1], reverse=True))
+
+#def Dyn(a, b = 4, c=3, d = 2):
+#   f = ((a+b)*(c + d))**2
+#    print(f)
+#Dyn(5, 4, 3, 2)
+#Dyn(5, d=1)
 
 
