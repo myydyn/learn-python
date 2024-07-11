@@ -49,8 +49,3 @@ team23 = {'name':'dyn', 'number':69}
 #else:
  #     print('done')
 
-set_ = {5, 8, 1, 9, 4}
-a = list(set_.items())
-for k in a:
-      print(sum.k())
-      break
