@@ -50,3 +50,5 @@ slogan = daph('baeuty')
 slogan('cutie')
 print()
 print(lambda goal: (lambda money: goal + money))
+
+open ('35-map.py', 'w')
