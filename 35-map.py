@@ -4,7 +4,7 @@
 #    daph_update.append(m + 1)
 #print(daph_update)
 
-#def inc(x): return x + 1 #
+#def inc(x): return x + 1 
 #daph = [1, 2, 3]
 #print(list(map(inc, daph)))
 
