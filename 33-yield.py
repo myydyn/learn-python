@@ -33,8 +33,8 @@
 #     for num in lst:
 #            yield num**2
 
-#salmon = daph([6, 9])
-#for value in salmon:
+#simon = daph([6, 9])
+#for value in simon:
 #      print(value)
 
 #def gen():
