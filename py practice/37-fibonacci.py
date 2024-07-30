@@ -7,7 +7,7 @@ except:
 
 if is_it:
     if n<0:
-        print('n is nagative number')
+        print('n is positive number')
     elif 1<=n<=2:
         print('F(n) = 1')
     else:

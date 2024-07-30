@@ -7,7 +7,7 @@ except:
 
 if is_it:
     if n<=0:
-        print('n is nagative number')
+        print('n is positive number')
     else:
         s = 0
         for i in range(1,n//2+1): #Do ước của một số không bao giờ lớn hơn số đó chia 2 (trừ chính nó).
