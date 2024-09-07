@@ -23,16 +23,18 @@ def nhapDanhSach(m, n):
     return hang
 
 def inDanhSach(danhSach):
-    for i in danhSach:
-        print(*i)
+    if danhSach:
+        for i in danhSach:
+            print(*i)
 
 try:
     m, n = map(int, input('nhap m n = ').split())
     if m <= 0 or n <= 0:
         print('m va n phai nguyen duong')
-    if m >0 and n>0:
+    else:
         danhSach = nhapDanhSach(m, n)
-        inDS = inDanhSach(danhSach)
+        if danhSach is not None:
+            inDanhSach(danhSach)
     
 except:
     print('loi du lieu dau vao')
