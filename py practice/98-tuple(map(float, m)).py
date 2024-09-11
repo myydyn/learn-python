@@ -5,10 +5,7 @@
 #                                       4
 
 def tupleSoThuc(m):
-    lonNhat = max(m)
-    nhoNhat = min(m)
-    so = len(m)
-    return lonNhat, nhoNhat, so
+    return max(m), min(m), len(m)
 
 m = input('nhap cac so thuc: ').split()
 try:
@@ -17,10 +14,8 @@ try:
    
     else:
         ong = tuple(map(float, m))
-        lonNhat, nhoNhat, dai = tupleSoThuc(ong)
-        print(lonNhat)
-        print(nhoNhat)
-        print(dai)
+        kq = tupleSoThuc(ong)
+        print(*kq, sep='\n')
 
 except:
     print('Vui long nhap cac phan tu la so thuc!')
