@@ -36,6 +36,8 @@ def sapXep(dictA):
     #Su dung phuong thuc sorted() de sap xep cac key theo thu tu tang dan
     listKey = sorted(dictA.keys())
     dictKq = {}
+    # Duyệt qua các khóa đã sắp xếp và thêm cặp khóa-giá trị tương 
+    # ứng từ dictA vào từ điển dictKq.
     for i in listKey:
         dictKq[i] = dictA[i]
     return dictKq
